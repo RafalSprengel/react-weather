@@ -1,0 +1,27 @@
+form{
+    text-align: center;
+    margin: 30px 10px;
+    width: 425px;
+}
+input{
+    margin-right: 40px;
+    padding: 7px 12px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+button{
+    padding: 7px 12px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: white;
+    background: rgb(30, 49, 112);
+    transition: all .15s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(22, 49, 126);
+}
+::placeholder{
+    color:rgb(83, 94, 156);;
+}
